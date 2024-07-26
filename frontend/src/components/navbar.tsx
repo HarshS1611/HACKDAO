@@ -30,7 +30,7 @@ export default function Navbar(props: NavProps) {
     })
 
     return (
-        <div className="flex justify-end items-center gap-2 py-2 px-10 bg-[#282828] border-b-[0.2px]">
+        <div className="flex justify-end w-full items-center gap-2 py-2 px-10 bg-[#282828] border-b-[0.2px]">
             {props.balance && (
                 <div className="flex items-center mx-4 my-5 w-full justify-end text-white">
                     <div className="bg-[#1A1A1A] dm-mono-regular flex text-xs gap-2 py-2 px-4 rounded-md items-center">

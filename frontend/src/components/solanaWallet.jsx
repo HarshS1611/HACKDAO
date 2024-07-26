@@ -123,23 +123,11 @@ const Content = () => {
     return (
 
 
-        <div className="App">
-            <div className="navbar">
-                <div className="navbar-inner ">
-                    <ul className="nav">
-
-
-                    </ul>
-                    <ul className="nav pull-right">
-
-                        <li className='w-full'><WalletMultiButton /></li>
-
-                    </ul>
-                </div>
+        <div className="">
+           <WalletMultiButton className='w-80' />
             </div>
      
 
 
-        </div>
     );
 };
