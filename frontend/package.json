@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@ethsign/sp-sdk": "^0.3.29",
+    "@solana/wallet-adapter-base": "^0.9.23",
     "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.1",
     "@web3modal/ethers": "^4.1.9",
     "axios": "^1.6.8",
     "ethers": "^6.12.0",
     "next": "14.2.1",
     "pino-pretty": "^11.0.0",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-dom": "^18",
     "react-icons": "^5.1.0"
   },

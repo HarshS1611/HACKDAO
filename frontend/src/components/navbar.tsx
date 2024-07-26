@@ -6,7 +6,7 @@ import { queryAttestations } from "../utils/ethSign";
 import {
     useWeb3ModalAccount,
 } from "@web3modal/ethers/react"; import CreateHackModal from "./CreateHackModal";
-import CustomConnectButton from "./solanaWallet";
+import Wallet from "./solanaWallet";
 interface NavProps {
     balance?: string;
 }
@@ -61,7 +61,7 @@ export default function Navbar(props: NavProps) {
           {modalOpen && (
               <CreateHackModal modalOpen={modalOpen} setModalOpen={setModalOpen} />
           )} */}
-            <CustomConnectButton />
+            <Wallet />
         </div>
     );
 }
